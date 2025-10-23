@@ -1,0 +1,5 @@
+a=float(input('请输入本金:'))
+r=float(input('请输入年利率:'))
+n=int(input('请输入年份:'))
+s=a*(1+r/100)**(n)
+print(f'本金利率和为:{s:.2f}')
